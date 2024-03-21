@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+.title
+{
+display: grid;
+grid-template-columns: repeat(3,2fr);
+align-items: center;
+column-gap: 1rem;
+}
+.container{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title::before{
+  content: "";
+  height: 2px;
+  margin-left: -30px;
+  background-color: rgb(217, 217, 217);
+  display: block;
+}
+.title::after{
+  content: "";
+  height: 2px;
+  margin-left: -70px;
+  background-color: rgb(217, 217, 217);
+  display: block;
+}
+

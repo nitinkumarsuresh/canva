@@ -29,6 +29,21 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script>
+      document.getElementById('saveButton').addEventListener('click', function () {
+          html2canvas(document.getElementById('cardContainer')).then(function (canvas) {
+              // Convert canvas to image
+              var img = canvas.toDataURL('image/png');
+              // Create a link element
+              var link = document.createElement('a');
+              link.href = img;
+              link.download = 'card_image.png';
+              // Simulate click on the link to download the image
+              link.click();
+          });
+      });
+  </script> -->
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
